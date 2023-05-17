@@ -10,7 +10,7 @@ const ProductPageLayout = () => {
 
 
     return (
-    <div className="container">
+    <div className="container mt-5">
       <div className="row">
         <div className="product-category col-12  col-md-3 d-flex d-md-block p-2 overflow-auto overflow-md-hidden">
           { data && (

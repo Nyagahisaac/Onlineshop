@@ -23,7 +23,7 @@ const Navbar = () => {
     <nav className="navBar shadow sticky-top">
       <div className="container d-md-flex justify-content-between p-3 p-md-2">
         <div className="d-flex justify-content-between align-items-center">
-          <Link className="h2 text-dark" to={'/'}>Logo</Link>
+          <Link className="h2 text-dark" to={'/'}>DATACOMP</Link>
           <button
             className="d-md-none rounded btn btn-outline bg-white"
             onClick={() => setShowNav(!showNav)}

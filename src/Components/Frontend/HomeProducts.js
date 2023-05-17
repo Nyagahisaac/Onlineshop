@@ -9,9 +9,10 @@ const HomeProducts = ({category}) => {
   
   
     return (
-    <div className="card border-0 my-5">
+    <div className="card border-0 my-5 mt-5" style={{marginTop:'0px'}}>
         <div className="card-body py-2 py-md-3">
-            <div className="p-2 border-bottom bg-white d-flex justify-content-between align-items-center">
+           
+            <div className="p-2 border-bottom bg-white d-flex justify-content-between align-items-center" style={{marginTop:'30px'}}>
                 <span>
                     <h4>{category}</h4>
                 </span>

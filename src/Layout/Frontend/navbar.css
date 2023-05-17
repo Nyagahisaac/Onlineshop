@@ -17,7 +17,7 @@
 
 .navBar .active,
 .navLink:hover {
-    color: orangered !important;
+    color: rgb(19, 18, 18) !important;
 }
 
 .cart-link {

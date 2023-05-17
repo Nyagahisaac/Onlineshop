@@ -22,7 +22,7 @@ const ProductCard = ({product}) => {
     },[items])
 
     return (
-    <div className="card mw-100 mb-2 border-0 shadow " >
+    <div className="card mw-100 mb-2 border-0 shadow mt-5 " >
         <div className='p-1 pt-2 d-flex mw-100 mb-2' style={{height: "200px"}} >
             <img src={image} className="mx-auto mw-100 mh-100" alt="" />
         </div>

@@ -1,11 +1,22 @@
 .productSlider {
     width: 100%;
     height: 350px;
+    margin-bottom: 400px;
 }
+.featured_products {
+    align-items: center;
+}
+.featured__products__header__line{
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px  solid #047857;
+    width: 200px;
+}
+
 
 .swiper {
     width: 100%;
-    height: 100%;
+    height: 70vh;
 }
 
 .product-image {

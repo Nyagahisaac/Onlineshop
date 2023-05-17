@@ -93,31 +93,31 @@
     {
       "title": "Banner 01",
       "status": "active",
-      "image": "http://res.cloudinary.com/djorpdesu/image/upload/v1674146282/cuekp1moogxqvnzska2h.jpg",
+      "image": "https://i.pinimg.com/originals/24/68/c0/2468c0c93211462ce4ac268d49605727.jpg",
       "id": 1
     },
     {
       "title": "Banner 02",
       "status": "active",
-      "image": "http://res.cloudinary.com/djorpdesu/image/upload/v1674146323/xenbtsqi8vtqbsmy4ksx.jpg",
+      "image": "https://s3b.cashify.in/gpro/uploads/2022/03/31223407/HP-15s-Natural-Silver.jpg",
       "id": 2
     },
     {
       "title": "Banner 03",
       "status": "active",
-      "image": "http://res.cloudinary.com/djorpdesu/image/upload/v1674413912/cph4lwog7309ivxukzzm.jpg",
+      "image": "https://www.orbitindia.net/wp-content/uploads/2020/01/HP-EliteBook-Your-partner-in-%E2%80%9CElegance%E2%80%9D-1080x380.jpg",
       "id": 3
     },
     {
       "title": "Banner 04",
       "status": "hidden",
-      "image": "http://res.cloudinary.com/djorpdesu/image/upload/v1674413943/y2rhku9qrgchtyuqs88v.jpg",
+      "image": "https://www.computechlimited.com/images/hp-eliteBook-840-web%20banner.jpg",
       "id": 4
     },
     {
       "title": "Banner 05",
       "status": "active",
-      "image": "http://res.cloudinary.com/djorpdesu/image/upload/v1674413965/gruluhupe8ptlsszpbqi.jpg",
+      "image": "https://www.gbscomputers.com/images/HP/hp-banner.jpg",
       "id": 5
     }
   ],
@@ -128,7 +128,7 @@
       "id": 1
     },
     {
-      "category": "Accessoeries",
+      "category": "electronics",
       "status": "active",
       "id": 2
     },
@@ -185,8 +185,7 @@
       "description": "Your perfect pack for everyday use and walks in the forest.\n\nStash your laptop (up to 15 inches) in the padded sleeve, your everyday.Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday\nYour perfect pack for everyday use and walks in the forest.",
       "brand": "Satisfaction ",
       "price": 109.95,
-      "category": "men's clothing",
-      
+      "category": "laptops",
       "image": "https://www.lenovo.com/medias/lenovo-laptops-thinkbook-16-gen-4-intel-hero.png?context=bWFzdGVyfHJvb3R8MzQ1OTM2fGltYWdlL3BuZ3xoMjEvaGZkLzEzMjU1MTI1OTkxNDU0LnBuZ3xlMGJjMDAyZjIzYzczYmY0YTY3NTlmODcwMDJjZTBhMzg5M2VlMjFlNTNlZWJkZDMyNDA3MTdlNjc3NjhhZWY5",
       "status": "active",
       "id": 1
@@ -214,12 +213,12 @@
     {
       "status": "active",
       "id": 4,
-      "title": "Casual Slim Fit",
+      "title": "Chargers",
       "price": 15.99,
       "brand": "The color",
       "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
       "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+      "image": "https://www.kenyacomputershop.co.ke/wp-content/uploads/2020/07/Hp-Charger-19.5V-2.31A-Laptop-Adapter.jpg"
     },
     {
       "title": "Chain Bracelet",
@@ -336,7 +335,7 @@
       "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
       "brand": "Lock and Love ",
       "price": 29.95,
-      "category": "women's clothing",
+      "category": "Accessoeries",
       "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
       "status": "active",
       "id": 16
