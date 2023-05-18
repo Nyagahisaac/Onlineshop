@@ -12,12 +12,12 @@ const HomeProducts = ({category}) => {
     <div className="card border-0 my-5 mt-5" style={{marginTop:'0px'}}>
         <div className="card-body py-2 py-md-3">
            
-            <div className="p-2 border-bottom bg-white d-flex justify-content-between align-items-center" style={{marginTop:'30px'}}>
+            <div className="p-2  bg-white d-flex justify-content-between align-items-center" style={{marginTop:'30px'}}>
                 <span>
-                    <h4>{category}</h4>
+                    <h4 style={{fontFamily:'sans-serif',fontWeight:'600',textTransform:'capitalize'}}>{category}</h4>
                 </span>
                 <span>
-                    <Link className='p-1' to={`/products/${category}`}>See More</Link>
+                    <Link className='p-1 border-bottom  text-primary' to={`/products/${category}`}>See More</Link>
                 </span>
             </div>
             <div className='pt-5 row g-2 g-sm-5'>

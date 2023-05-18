@@ -5,6 +5,9 @@ import "./navbar.css";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../../App/features/customerAuthSlice";
+import PersonIcon from '@mui/icons-material/Person';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import ShoppingCartRoundedIcon from '@mui/icons-material/ShoppingCartRounded';
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
@@ -21,9 +24,11 @@ const Navbar = () => {
 
   return (
     <nav className="navBar shadow sticky-top">
-      <div className="container d-md-flex justify-content-between p-3 p-md-2">
-        <div className="d-flex justify-content-between align-items-center">
-          <Link className="h2 text-dark" to={'/'}>DATACOMP</Link>
+     
+         
+      <div className=" d-md-flex justify-content-between  p-md-2">
+          <Link className="h2 text-dark p-2" style={{alignContent:'flex-start'}} to={'/'}> DATACOMP <img src="https://img.freepik.com/free-vector/letter-c-computer_1308-83159.jpg?size=626&ext=jpg" width="50" style={{borderRadius:'20px'}} alt=""/> </Link>
+        <div className="d-flex justify-content-between align-items-center " style={{marginLeft:'50px'}}>
           <button
             className="d-md-none rounded btn btn-outline bg-white"
             onClick={() => setShowNav(!showNav)}
@@ -43,8 +48,9 @@ const Navbar = () => {
             Products
           </NavLink>
           <NavLink className="navLink cart-link" to={"/cart"} onClick={() => setShowNav(!showNav)}>
-            <span>Cart</span>
-            <span className="total-product">{`(${totalProduct})`}</span>
+            <span><ShoppingCartRoundedIcon/></span>
+            <span></span>
+            <span className="total-product text-danger">{`${totalProduct}`}</span>
           </NavLink>
           <div className="ms-0 ms-md-3 mt-3 mt-md-0 ">
             { isLogedIn ? (
@@ -67,11 +73,12 @@ const Navbar = () => {
 
             ) : (
               <Link
-               className="ms-0 ms-md-3 mt-3 mt-md-0 btn btn-sm btn-primary"
+               className="ms-0 ms-md-3 mt-3 mt-md-0 btn btn-sm btn-default"
                to={'/login'}
                onClick={() => setShowNav(!showNav)}
               >
-                  Login
+                <PersonIcon fontSize="medium"/>
+                <ArrowDropDownIcon />
               </Link>
             )}
           </div>
