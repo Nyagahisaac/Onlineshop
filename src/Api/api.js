@@ -1,21 +1,6 @@
 
 const data = require('../db.json');
-export const BASE_URL = `http://localhost:4000`;
-
-exports.handler = async (event, context) => {
-  try {
-    const response = {
-      statusCode: 200,
-      body: JSON.stringify(data),
-    };
-    return response;
-  } catch (error) {
-    return {
-      statusCode: 500,
-      body: JSON.stringify({ error: 'Internal server error' }),
-    };
-  }
-};
+export const BASE_URL = data;
 
 export const postConfigure = (data) => {
   return {
