@@ -27,7 +27,7 @@ const Navbar = () => {
      
          
       <div className=" d-md-flex justify-content-between  p-md-2">
-          <Link className="h2 text-dark p-2" style={{alignContent:'flex-start'}} to={'/'}> DATACOMP <img src="https://img.freepik.com/free-vector/letter-c-computer_1308-83159.jpg?size=626&ext=jpg" width="50" style={{borderRadius:'20px'}} alt=""/> </Link>
+          <Link className="h2 text-dark p-2" style={{alignContent:'flex-start'}} to={'/'}> DATACOM <img src="https://img.freepik.com/free-vector/letter-c-computer_1308-83159.jpg?size=626&ext=jpg" width="50" style={{borderRadius:'20px'}} alt=""/> </Link>
         <div className="d-flex justify-content-between align-items-center " style={{marginLeft:'50px'}}>
           <button
             className="d-md-none rounded btn btn-outline bg-white"

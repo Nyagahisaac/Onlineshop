@@ -1,6 +1,6 @@
 
 
-export const BASE_URL = `http://localhost:4000`;
+export const BASE_URL = './db.json';
 
 export const postConfigure = (data) => {
   return {

@@ -26,8 +26,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "api" :"npx json-server --watch db.json --port 4000",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
