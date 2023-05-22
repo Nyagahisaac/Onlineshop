@@ -1,4 +1,4 @@
-import React from 'react'
+import {React} from 'react'
 import { BASE_URL } from '../../Api/api'
 import HomeProducts from '../../Components/Frontend/HomeProducts'
 import Slider from '../../Components/Frontend/Slider'
@@ -6,6 +6,7 @@ import Spiner from '../../Components/Spiner'
 import useDoubleFetch from '../../Hooks/useDoubleFetch'
 
 const Home = () => {
+  
   const {data1: banner, data2: category, error, loading} = useDoubleFetch([`${BASE_URL}/banner`, `${BASE_URL}/category`])
 
 
@@ -15,7 +16,10 @@ const Home = () => {
 
   return (
     <>
-      { banner && (
+    
+
+      
+      {  banner && (
         <Slider banner={banner} />
       )}
 

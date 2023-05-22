@@ -1,6 +1,5 @@
 
-const data = require('../db.json');
-export const BASE_URL = data;
+export const BASE_URL = `https://localhost:4000/`;
 
 export const postConfigure = (data) => {
   return {
